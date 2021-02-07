@@ -1,7 +1,17 @@
 <template>
-  <div>
-    <Nuxt />
-  </div>
+  <el-container class="hits-app">
+    <el-header>
+      HITS
+    </el-header>
+
+    <el-main>
+      <Nuxt />
+    </el-main>
+
+    <el-footer>
+      Developed by edcilo.com
+    </el-footer>
+  </el-container>
 </template>
 
 <style>
