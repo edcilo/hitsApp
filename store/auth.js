@@ -4,6 +4,12 @@ export const state = () => ({
   auth: false,
 })
 
+export const getters = {
+  getAuth: (state) => {
+    return state.auth
+  }
+}
+
 export const mutations = {
   setToken(state, token) {
     state.token = token
